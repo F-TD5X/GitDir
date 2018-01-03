@@ -28,6 +28,7 @@ RUN set -ex && \
                 --with-peruserlimits \
                 --with-ratios \
                 --with-welcomemsg && \
+
     make install-strip && \
     cd .. && \
     rm -rf /tmp/* && \
